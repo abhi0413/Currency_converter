@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* color: black; */
+    
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #00CFC1;
+
+}
+header{
+    margin: 1rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 6rem;
+    background-color: #FCBF49;
+    color: rgb(243, 243, 243);
+}
+.amount{
+
+    font-size: 40px;
+    color: wheat;
+    margin: 25px 0 0 0;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+
+}
+
+.left-header{
+    /* background-color: gray; */
+    position: relative;
+    left:-15rem;
+}
+#element{
+    width: 8rem;
+    background-color: #3d2339;
+    border-radius: 40px;
+    opacity: 0.6;
+    position: relative;
+    left:-112px;
+    padding: 0px 30px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.main{
+    /* border: 1px solid #E1CE7A; */
+    border-radius: 5px;
+    height: 25rem;
+    width: 25rem;
+    background-color:#4DA1A9;
+}
+.convertimg img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.dropdown{
+    font-size: 1.8rem;
+    margin:2.5rem 0 0 0 ;
+    display: flex;
+    justify-content: space-around;
+}
+.display{
+    color: rgb(235, 225, 206);
+    font-weight:bolder;
+}
+button{
+    text-align: center;
+    position: relative;
+    /* left:10rem; */
+    top:4rem;
+    width: 21rem;
+    /* margin: 0 2rem 0 0;
+    padding: 0 2rem 0 0; */
+}
+.display{
+    position: relative;
+    top:2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* left: 200px; */
+    /* margin: 0 20px 0 0; */
+}
+.amount input{
+    /* height: 1.5rem;
+    width: 11rem; */
+    background-color: #12ebff;
+    border-radius: 10px;
+} 
